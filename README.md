@@ -1,5 +1,8 @@
 # Disaster Response Pipeline Project
 
+### Summary
+This project is to use the machine learning and natural language processing technology to analyze the text messages that were sent during disaster events and categorize these events that will help appropriate disaster relief agencies to take actions.
+
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
