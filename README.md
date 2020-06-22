@@ -15,8 +15,4 @@ This project is to use the machine learning and natural language processing tech
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
-<<<<<<< HEAD
 https://view6914b2f4-3001.udacity-student-workspaces.com/
-=======
-
->>>>>>> a8ea1c61a378f59314b0bd3d934d72bfb2af15bf
