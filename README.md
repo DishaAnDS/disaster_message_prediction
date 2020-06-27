@@ -11,6 +11,7 @@
 This project is to use the machine learning and natural language processing technology to analyze the text messages that were sent during disaster events and categorize these events that will help appropriate disaster relief agencies to take actions. The corresponding model used in this project is random forest classifier. The UI is created by using the Flask framework.
 
 #### Files-Explanation
+1. Folder Structure <br/>
 * app/ <br/>
 		* templates/ <br/>
         		* go.html <br/>
@@ -22,9 +23,14 @@ This project is to use the machine learning and natural language processing tech
         * disaster_messages.csv <br/>
         * process_data.py <br/>
 * models/ <br/>
-		
-        
-
+        * classifier.pkl <br/>
+        * train_classifier.py <br/>
+* README.md <br>
+2. File Main Function
+`process_data.py`: read, clean and combien the .csv datasets. This is going to create the database `DisasterResponse.db`. <br/>
+`run.py`: this will run the Flask app. <br/>
+`templates/`: this folder provides the .html files that will defign corresponding setting and configuration of the Flask app. <br/>
+`train_classifier.py`: this file will load the data, train the model. The trained model is going to be stored as `classifier.pkl`. <br/>
 
 #### Instructions
 1. Run the following commands in the project's root directory to set up your database and model.
@@ -42,4 +48,5 @@ https://view6914b2f4-3001.udacity-student-workspaces.com/
 
 
 #### License
+The dataset and code template are provided by Udacity.
 
