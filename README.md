@@ -1,9 +1,32 @@
 # Disaster Response Pipeline Project
 
-### Summary
-This project is to use the machine learning and natural language processing technology to analyze the text messages that were sent during disaster events and categorize these events that will help appropriate disaster relief agencies to take actions.
+### Table of Contents
 
-### Instructions:
+* [Summary](#Summary)
+* [Files-Expanation](#Files-Explanation)
+* [Instructions](#Instruction)
+* [License](#License)
+
+#### Summary
+This project is to use the machine learning and natural language processing technology to analyze the text messages that were sent during disaster events and categorize these events that will help appropriate disaster relief agencies to take actions. The corresponding model used in this project is random forest classifier. The UI is created by using the Flask framework.
+
+#### Files-Explanation
+* app/ <br/>
+		* templates/ <br/>
+        		* go.html <br/>
+                * master.html <br/>
+		* run.py <br/>
+ * data/ <br/>
+ 		* DisasterResponse.db <br/>
+        * disaster_categories.csv <br/>
+        * disaster_messages.csv <br/>
+        * process_data.py <br/>
+* models/ <br/>
+		
+        
+
+
+#### Instructions
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
@@ -16,3 +39,7 @@ This project is to use the machine learning and natural language processing tech
 
 3. Go to http://0.0.0.0:3001/
 https://view6914b2f4-3001.udacity-student-workspaces.com/
+
+
+#### License
+
