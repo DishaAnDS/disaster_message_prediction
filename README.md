@@ -26,7 +26,7 @@ This project is to use the machine learning and natural language processing tech
         * classifier.pkl <br/>
         * train_classifier.py <br/>
 * README.md <br>
-2. File Main Function
+2. File Main Function <br/>
 `process_data.py`: read, clean and combien the .csv datasets. This is going to create the database `DisasterResponse.db`. <br/>
 `run.py`: this will run the Flask app. <br/>
 `templates/`: this folder provides the .html files that will defign corresponding setting and configuration of the Flask app. <br/>
